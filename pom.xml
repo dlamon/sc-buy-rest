@@ -8,7 +8,7 @@
         <version>0.0.1-SNAPSHOT</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>cn.net.liaowei</groupId>
+
     <artifactId>sc-buy-rest</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>sc-buy-rest</name>
@@ -47,6 +47,10 @@
             <groupId>com.alipay.sofa</groupId>
             <artifactId>tracer-sofa-boot-starter</artifactId>
         </dependency>
+        <!--<dependency>-->
+            <!--<groupId>org.springframework.cloud</groupId>-->
+            <!--<artifactId>spring-cloud-starter-zipkin</artifactId>-->
+        <!--</dependency>-->
         <dependency>
             <groupId>com.spring4all</groupId>
             <artifactId>swagger-spring-boot-starter</artifactId>
